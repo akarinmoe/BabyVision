@@ -9,7 +9,7 @@
 
 <div align="center" style="line-height: 1;">
 
-[![Leaderboard](https://img.shields.io/badge/Benchmark-4285F4?style=for-the-badge&logo=google-chrome&logoColor=green)](https://unipat.ai/benchmarks/BabyVision)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-4285F4?style=for-the-badge&logo=google-chrome&logoColor=green)](https://unipat.ai/benchmarks/BabyVision)
 [![GITHUB](https://img.shields.io/badge/Github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UniPat-AI/BabyVision)
 [![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://unipat.ai/blog/BabyVision)
 [![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/UniPat-AI/BabyVision/blob/main/BabyVision_Paper.pdf)
@@ -51,7 +51,10 @@ Both tracks assess models across four visual reasoning categories:
 </div>
 
 ## Leaderboard
-In the full and fine-grained evaluaiton, models' best performance is still far from human-level (94.1%). ​Across closed-source systems, ​Gemini3-Pro-Preview leads overall (49.7%)​, followed by ​GPT-5.2 (34.4%)​ and Doubao-Seed-1.8 (30.2%)​, with other models substantially lower (e.g., ​Qwen3-VL-Plus ​19.2%​, Grok-4 16.2%, ​Claude-4.5-Opus 14.2%​).
+
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-4285F4?style=for-the-badge&logo=google-chrome&logoColor=green)](https://unipat.ai/benchmarks/BabyVision)
+
+In the full and fine-grained evaluaiton, models' best performance is still far from human-level (94.1%). ​Across closed-source systems, ​Gemini3-Pro-Preview leads overall (49.7%)​, followed by ​GPT-5.2 (34.4%)​ and Doubao-Seed-1.8 (30.2%)​, with other models substantially lower (e.g., ​Qwen3-VL-Plus ​19.2%​, Grok-4 16.2%, ​Claude-4.5-Opus 14.2%​). 
 
 <div align="center">
   <picture>
