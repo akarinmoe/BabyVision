@@ -21,6 +21,13 @@
 
 State-of-the-art MLLMs achieve PhD-level language reasoning but struggle with visual tasks that 3-year-olds solve effortlessly. We introduce BabyVision, a benchmark revealing the infancy of AI vision. Read the [blog](https://unipat.ai/blog/BabyVision) first for better overall impression.
 
+<div align="center">
+  <picture>
+      <img src="./assets/result.jpg" width="85%">
+  </picture>
+</div>
+
+
 ## Overview
 
 <div align="center">
