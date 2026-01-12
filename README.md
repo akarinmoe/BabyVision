@@ -1,22 +1,60 @@
 # BabyVision
 
-[![Blog](https://img.shields.io/badge/Blog-Read%20More-blue)](https://unipat.ai/blog/BabyVision) [![Leaderboard](https://img.shields.io/badge/Leaderboard-View%20Results-green)](https://unipat.ai/benchmarks/BabyVision) [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://github.com/UniPat-AI/BabyVision/blob/main/BabyVision_Paper.pdf) [![HuggingFace](https://img.shields.io/badge/🤗%20BabyVision-Dataset-yellow)](https://huggingface.co/collections/UnipatAI/babyvision) 
+<div align="center">
+  <picture>
+      <img src="./assets/joint_logo.png" width="100%">
+  </picture>
+</div>
+
+
+<div align="center" style="line-height: 1;">
+
+[![Leaderboard](https://img.shields.io/badge/Benchmark-4285F4?style=for-the-badge&logo=google-chrome&logoColor=green)](https://unipat.ai/benchmarks/BabyVision)
+[![GITHUB](https://img.shields.io/badge/Github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UniPat-AI/BabyVision)
+[![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://unipat.ai/blog/BabyVision)
+[![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/UniPat-AI/BabyVision/blob/main/BabyVision_Paper.pdf)
+
+</div>
+
+> *Can MLLMs See Like a 3-Year-Old?*
 
 
 State-of-the-art MLLMs achieve PhD-level language reasoning but struggle with visual tasks that 3-year-olds solve effortlessly. We introduce BabyVision, a benchmark revealing the infancy of AI vision. Read the [blog](https://unipat.ai/blog/BabyVision) first for better overall impression.
 
 ## Overview
 
+<div align="center">
+  <picture>
+      <img src="./assets/baby_logo.png" width="30%">
+  </picture>
+</div>
+
+
 BabyVision provides two evaluation tracks:
 
-1. **MLLM Evaluation (Major)** (`babyvision_eval/`): Evaluate multimodal language models on visual reasoning tasks
-2. **Generation Evaluation** (`babyvision_gen_eval/`): Evaluate image generation models on visual reasoning tasks
+1. **MLLM Evaluation (Major)** ([./babyvision_eval/](./babyvision_eval/)): Evaluate multimodal language models on visual reasoning tasks.
+2. **Generation Evaluation** ([./babyvision_gen_eval/](./babyvision_gen_eval/)): Evaluate image generation models on visual reasoning tasks.
 
 Both tracks assess models across four visual reasoning categories:
 - **Fine-grained Discrimination**: Finding different/same elements, shadows, patterns
 - **Visual Tracking**: Solving mazes, connecting lines, metro maps
 - **Spatial Perception**: 3D views, cube unfolding, paper folding, counting blocks
 - **Visual Pattern Recognition**: Pattern completion tasks
+
+<div align="center">
+  <picture>
+      <img src="./assets/full_table.jpg" width="85%">
+  </picture>
+</div>
+
+## Leaderboard
+In the full and fine-grained evaluaiton, models' best performance is still far from human-level (94.1%). ​Across closed-source systems, ​Gemini3-Pro-Preview leads overall (49.7%)​, followed by ​GPT-5.2 (34.4%)​ and Doubao-Seed-1.8 (30.2%)​, with other models substantially lower (e.g., ​Qwen3-VL-Plus ​19.2%​, Grok-4 16.2%, ​Claude-4.5-Opus 14.2%​).
+
+<div align="center">
+  <picture>
+      <img src="./assets/radar1.png" width="85%">
+  </picture>
+</div>
 
 ## Repository Structure
 
@@ -108,7 +146,8 @@ export OPENROUTER_API_KEY="your-openrouter-key"
 cat results/summary.txt
 ```
 
-See [babyvision_gen_eval/README.md](babyvision_gen_eval/README.md) for detailed documentation.
+See [./babyvision_gen_eval/README.md](./babyvision_gen_eval/README.md) for detailed documentation.
+
 
 ## Evaluation Details
 
@@ -146,6 +185,8 @@ Both tracks compute:
 - **Type-wise Accuracy**: Breakdown by task category
 - **Subtype-wise Accuracy**: Detailed breakdown
 - **Mean ± Std**: Statistics across multiple evaluation passes
+
+
 
 ## Citation
 
