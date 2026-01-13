@@ -9,10 +9,11 @@
 
 <div align="center" style="line-height: 1;">
 
+[![Datasets](https://img.shields.io/badge/Datasets-4285F4?style=for-the-badge&logo=huggingface&logoColor=yellow)](https://huggingface.co/UnipatAI/collections)
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-4285F4?style=for-the-badge&logo=google-chrome&logoColor=green)](https://unipat.ai/benchmarks/BabyVision)
 [![GITHUB](https://img.shields.io/badge/Github-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UniPat-AI/BabyVision)
 [![Blog](https://img.shields.io/badge/Blog-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://unipat.ai/blog/BabyVision)
-[![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/UniPat-AI/BabyVision/blob/main/BabyVision_Paper.pdf)
+[![Paper](https://img.shields.io/badge/Paper-red?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2601.06521)
 
 </div>
 
